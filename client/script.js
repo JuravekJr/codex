@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv)
 
     const SERVER_API = 'https://codex-im0y.onrender.com';
-    // const SERVER_API = 'http://localhost:5000';
+    // const SERVER_API = 'https://simple-react-codex.onrender.com';
 
     const response = await fetch(SERVER_API, {
         method: 'POST',
